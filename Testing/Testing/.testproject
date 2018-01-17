@@ -7,6 +7,18 @@
   <sourcePath>src</sourcePath>
   <secureStoragePath>.secrets</secureStoragePath>
   <browserDebugPort>0</browserDebugPort>
+  <connectionClasses>
+    <connectionClass name="sf">
+      <connections>
+        <connection name="admin">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="992bcaaf-f3cb-4372-b4e0-1d74e953ba03" url="sf:user=admin1@test1.provar.com;password={password};environment=PROD_DEV"/>
+          </connectionUrls>
+        </connection>
+      </connections>
+    </connectionClass>
+  </connectionClasses>
   <browserConfigurations>
     <browserConfiguration adjustBrowserWidthForChromeIde="true" browserHeight="0" browserWidth="0" name="Full Screen">
       <summary>Full screen with Test Builder adjustment</summary>
